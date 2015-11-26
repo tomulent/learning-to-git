@@ -14,3 +14,5 @@ change, merge, pull and all that jazz that I don't yet understand.
 After that, it's about being able to teach that to other people.
 
 I'm changing the name of this file to `thoughts.md` and will kinda just dump things in here.
+
+Below is a change that I want to get rid of by reverting to a previous commit
