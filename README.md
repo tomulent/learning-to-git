@@ -1,0 +1,1 @@
+The purpose of this repo is to help me learn how to use git better, both from the CLI and how it relates to GitHub.
