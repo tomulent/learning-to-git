@@ -1,6 +1,11 @@
 The purpose of this repo is to help me learn how to use git better, both from the CLI and how it relates to GitHub.
 
-## Experiment One - Backtracking with reset HEAD
+# Backtracking, Reverting, and Revising
+The below experiments are to help me get a handle on understanding how best to use commits.
+#### Helpful Links
+[Undoing Things - Git Tower](http://www.git-tower.com/learn/git/ebook/command-line/advanced-topics/undoing-things)
+
+## Backtracking with reset HEAD
 1. I have file one.md that I have inserted lines into
 2. I add it to the staging area
 3. I insert another line into one.md
@@ -12,7 +17,13 @@ This has created situation of sorts. The working version of one.md is different 
 * Remove it from the staging area. Use `git reset HEAD filename`
 * Discard the differences from the working directory. Use `git checkout HEAD filename`
 
-## Experiment Two - Renaming a File
+
+## Reverting to Previous Commits
+
+
+# Other Git Things
+
+## Renaming a File
 It appears that renaming a file is straightforward enough. You just start the line off with `git` and then use the `mv` command.
 
   		> ls 
@@ -20,4 +31,4 @@ It appears that renaming a file is straightforward enough. You just start the li
   		> git mv one.md thoughts.md
   		> ls
   		README.md  thoughts.md
-Back in my early days, I would remake the whole repo haha.
+Back in my early days, I would remake the whole repo!
