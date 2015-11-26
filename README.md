@@ -11,3 +11,13 @@ This has created situation of sorts. The working version of one.md is different 
 * Add the file again. This will update the version of one.md in the staging area
 * Remove it from the staging area. Use `git reset HEAD filename`
 * Discard the differences from the working directory. Use `git checkout HEAD filename`
+
+## Experiment Two - Renaming a File
+It appears that renaming a file is straightforward enough. You just start the line off with `git` and then use the `mv` command.
+
+  		> ls 
+  		one.md  README.md
+  		> git mv one.md thoughts.md
+  		> ls
+  		README.md  thoughts.md
+Back in my early days, I would remake the whole repo haha.
